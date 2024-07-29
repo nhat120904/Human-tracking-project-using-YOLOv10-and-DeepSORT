@@ -1,12 +1,16 @@
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1LF_LTIt878PgqgffdQ2xP1aLcL5oU81_?usp=sharing)
 
+# Computing Technology Project A
+Group 4
+Team member:
+Nguyen Cuong Nhat
+Vuong Khang Minh
+Nguyen Dang Duc Anh
+Nguyen Ha Huy Hoang
+Nguyen Dang Khanh Toan
+
 # Description
 Run human tracking and object detection using YOLOv10 and DeepSORT
-
-## Demo 
-<p align="center">
-  <img src="data/helper/test.gif" alt="demo" width="80%">
-</p>
 
 ## Installation
 1. Clone this repository:
