@@ -1,7 +1,7 @@
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1LF_LTIt878PgqgffdQ2xP1aLcL5oU81_?usp=sharing)
 
-# YOLOv10_DeepSORT
-This repository contains code for object detection and tracking in videos using the YOLOv10 object detection model and the DeepSORT algorithm.
+# Description
+Run human tracking and object detection using YOLOv10 and DeepSORT
 
 ## Demo 
 <p align="center">
@@ -11,7 +11,7 @@ This repository contains code for object detection and tracking in videos using 
 ## Installation
 1. Clone this repository:
   ```
-   git clone https://github.com/sujanshresstha/YOLOv10_DeepSORT.git
+   git clone https://github.com/nhat120904/Human-tracking-project-using-YOLOv10-and-DeepSORT.git
    cd YOLOv10_DeepSORT
   ```
 
@@ -69,7 +69,15 @@ This repository contains code for object detection and tracking in videos using 
    # Run tracking on a video with burring certain objects (set blur_id flag to 0 for person)
    python object_tracking.py --video ./data/test.mp4 --output ./output/output.mp4 --blur_id 0
    ```
+
+8. Inference app
+   ```
+   # Install Streamlit
+   pip install streamlit
    
+   # Run Streamlit app
+   streamlit run app.py
+   ```
 
 ## Acknowledgements
 - This code is built upon the YOLOv10 model and the DeepSort algorithm.
